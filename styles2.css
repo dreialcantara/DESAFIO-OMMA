@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #ffc107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    max-width: 100%;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*NAVBAR    */
+nav {
+    background-color: #FFA000;
+    height: 48px;
+
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 12px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    margin-top: 117px;
+    margin-left: 120px;
+    max-width: 580px;
+}
+
+/*titulo e img*/
+h1 {
+    color: #FFA000;
+    margin-bottom: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+
+main img {
+    margin-bottom: 25px;
+    max-width: 580px;
+}
+
+/*abaixo da img*/
+main span {
+    color: #176902;
+    border: 1px solid;
+    padding: 7px 10px;
+    margin-right: 38px;
+    border-radius: 30px;
+
+}
+
+
+
+/* ingredientes */
+h3 {
+    margin-top: 58px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 25px
+}
+
+
+/*VÍDEO*/
+section p {
+    margin-bottom: 52px;
+
+}
+
+/*mododepreparo*/
+article p {
+
+    margin-bottom: 166px;
+
+}
+
+/*todo conteudo principal*/
+.flexcontainer {
+    display: flex;
+}
+
+/* aside */
+aside {
+    float: left;
+    width: 50%;
+    margin-top: 178px;
+    margin-left: 192px;
+
+}
+
+h2 {
+    margin-bottom: 27px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFA000;
+    text-transform: lowercase;
+}
+
+.cardrelacionadas {
+    width: 345px;
+    height: 411px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardrelacionadas a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    display: flex;
+    background-color: #ffc107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+}
+
+footer p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 35px;
+    color: white;
+
+}
