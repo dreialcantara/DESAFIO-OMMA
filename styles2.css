@@ -7,9 +7,10 @@
 
 header {
     background-color: #ffc107;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 4, 4, 0.25);
     position: relative;
-    max-width: 100%;
+    max-width: 1366px;
+    margin-right: 0;
 }
 
 header img {
@@ -22,7 +23,7 @@ header img {
 nav {
     background-color: #FFA000;
     height: 48px;
-
+    max-width: 1366px;
 
 
 }
@@ -97,7 +98,7 @@ ul {
 
 /*VÍDEO*/
 section p {
-    margin-bottom: 52px;
+    margin-bottom: 37px;
 
 }
 
@@ -105,6 +106,7 @@ section p {
 article p {
 
     margin-bottom: 166px;
+    margin-top: 35px;
 
 }
 
@@ -144,7 +146,9 @@ h2 {
     line-height: 32px;
     text-align: center;
     text-transform: lowercase;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 4, 4, 0.25);
+    margin-bottom: 55px;
+    
 }
 
 .cardrelacionadas a {
@@ -152,11 +156,16 @@ h2 {
     color: #000000;
 }
 
+.cardrelacionadas p {
+    text-align: center;
+    margin-top: 9px;
+}
+
 footer {
     display: flex;
     background-color: #ffc107;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    max-width: 100%;
+    max-width: 1366px;
 }
 
 footer p {
