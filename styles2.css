@@ -9,7 +9,7 @@ header {
     background-color: #ffc107;
     box-shadow: 0px 4px 4px rgba(0, 4, 4, 0.25);
     position: relative;
-    max-width: 1366px;
+    max-width: 100%px;
     margin-right: 0;
 }
 
@@ -23,7 +23,7 @@ header img {
 nav {
     background-color: #FFA000;
     height: 48px;
-    max-width: 1366px;
+    max-width: 100%px;
 
 
 }
@@ -34,7 +34,6 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
     padding: 12px 40px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -75,7 +74,7 @@ main img {
 /*abaixo da img*/
 main span {
     color: #176902;
-    border: 1px solid;
+    border: 1.5px solid;
     padding: 7px 10px;
     margin-right: 38px;
     border-radius: 30px;
@@ -117,7 +116,6 @@ article p {
 
 /* aside */
 aside {
-    float: left;
     width: 50%;
     margin-top: 178px;
     margin-left: 192px;
@@ -125,7 +123,7 @@ aside {
 }
 
 h2 {
-    margin-bottom: 27px;
+    margin-bottom: 25px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -165,7 +163,8 @@ footer {
     display: flex;
     background-color: #ffc107;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    max-width: 1366px;
+    max-width: 100%px;
+ 
 }
 
 footer p {
