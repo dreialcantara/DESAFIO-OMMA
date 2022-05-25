@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #ffc107;
+    box-shadow: 0px 4px 4px rgba(0, 4, 4, 0.25);
+    position: relative;
+    max-width: 100%px;
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*NAVBAR    */
+nav {
+    background-color: #FFA000;
+    height: 48px;
+    max-width: 100%px;
+
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 12px 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    padding: 3rem;
+
+}
+
+.first-content {
+    display: flex;
+    background: url("./img-omma/bgtop.png") 100% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
+
+
+}
+
+.first-content>h1 {
+
+    color: #fff;
+    margin: 120px;
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+form {
+
+    display: flex;
+    flex-grow: 1;
+}
+
+.flexcontainer p {
+    border-radius: 20px;
+}
+
+@media(max-width: 800px) {
+    .flexcontainer p {
+        display: none;
+    }
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-grow: 1;
+    padding: 25px;
+    margin-left: 15px;
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
+.screen-reader-only {
+    display: none;
+}
+
+input {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    margin-bottom: 23px;
+
+}
+
+.mensagem {
+
+    height: 293.42px;
+    text-align: start;
+
+}
+
+legend {
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFC107;
+}
+
+button {
+    background: #FFC107;
+    border-radius: 50px;
+    Width: 164.18px;
+     Height: 48.65px;
+     font-family: Nunito;
+     border-style: none;
+}
+
+footer {
+    display: flex;
+    background-color: #ffc107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%px;
+
+}
+
+footer p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 35px;
+    color: white;
+
+}
