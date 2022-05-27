@@ -123,7 +123,7 @@ input {
     font-size: 16px;
     line-height: 22px;
     text-transform: lowercase;
-
+    display: flex;
     width: 100%;
     height: 50px;
     border: 1px solid #FFA000;
@@ -132,8 +132,9 @@ input {
 
 }
 
-.mensagem {
-
+input.mensagem {
+display: flex;
+align-items: flex-start;
     height: 293.42px;
     text-align: start;
 
@@ -142,21 +143,38 @@ input {
 legend {
 
     font-family: 'Ubuntu';
+    display: block;
+    float: left;
+    clear: both;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 25px;
     color: #FFC107;
 }
 
 button {
+    color: white;
     background: #FFC107;
     border-radius: 50px;
     Width: 164.18px;
-     Height: 48.65px;
-     font-family: Nunito;
-     border-style: none;
+    Height: 48.65px;
+    font-family: Nunito;
+    border-style: none;
+    text-decoration: white;
+    animation: blink 1s steps(5, start) infinite;
+
 }
+
+/*  Animação */
+/*
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }
+}*/
 
 footer {
     display: flex;
@@ -174,5 +192,15 @@ footer p {
     line-height: 22px;
     margin-top: 35px;
     color: white;
+
+}
+
+@media only screen and (max-width: 390px) {
+
+    .first-content>h1 {
+
+        font-size: 30px;
+
+    }
 
 }
